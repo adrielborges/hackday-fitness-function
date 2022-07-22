@@ -1,5 +1,5 @@
 [
-  { "from": "./src/base", "target": "./src/auth" },
-  { "from": "./src/base", "target": "./src/user" },
-  { "from": "./src/user", "target": "./src/auth" }
+  { "from": "./src/auth", "target": "./src/base" },
+  { "from": "./src/user", "target": "./src/base" },
+  { "from": "./src/auth", "target": "./src/user" }
 ]
