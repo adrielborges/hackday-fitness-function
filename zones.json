@@ -1,5 +1,7 @@
 [
   { "from": "./src/auth", "target": "./src/base" },
   { "from": "./src/user", "target": "./src/base" },
-  { "from": "./src/auth", "target": "./src/user" }
+  { "from": "./src/auth", "target": "./src/user" },
+  { "from": "./src/**/*Repository", "target": "./src/**/*Service" },
+  { "from": "./src/**/*Service", "target": "./src/**/*Controller" }
 ]
