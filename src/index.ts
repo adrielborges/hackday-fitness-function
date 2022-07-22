@@ -1,4 +1,4 @@
-const { parse, parseFile, formatters } = require('plantuml-parser');
+import { parse, formatters } from 'plantuml-parser';
 
 const data = `
 @startuml
@@ -18,5 +18,5 @@ const result = parse(data);
 
 // Format and print parse result
 console.log(
-  formatters.default(result)
+  formatters.default(result),
 );

@@ -1,0 +1,5 @@
+[
+  { "from": "./src/base", "target": "./src/auth" },
+  { "from": "./src/base", "target": "./src/user" },
+  { "from": "./src/user", "target": "./src/auth" }
+]
