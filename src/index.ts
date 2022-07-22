@@ -1,4 +1,4 @@
-import { parse, formatters } from 'plantuml-parser';
+import { parse } from 'plantuml-parser';
 
 const data = `
 @startuml
@@ -15,9 +15,6 @@ Auth -> User
 `;
 
 // parse PlantUML
-const result = parse(data);
+parse(data);
 
 // Format and print parse result
-console.log(
-  formatters.default(result),
-);

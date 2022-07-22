@@ -1,8 +1,4 @@
-import { foo } from '../user';
-
-function bar() {
-  foo();
-}
+function bar() {}
 
 export { bar };
 export default bar;
